@@ -1,0 +1,103 @@
+body{
+    background-image: url("../obrazki/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ui-widget{
+    font-family: "Helvetica" !important;
+}
+#room{
+    position: absolute;
+    display: block;
+    top: 130px;
+    left: 35px;
+    overflow: hidden;
+    visibility: hidden;
+}
+.element{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.element img{
+    width: 100%;
+    height: 100%;
+}
+.delete{
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}
+.rotate{
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+#menu{
+    visibility: hidden;
+}
+.menuIcons img{
+    width: 20px !important;
+    height: 20px !important;
+    background-color: rgba(255, 255, 255, 0.4) !important;
+}
+.ui-menu-item{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 155px;
+    background-color: rgba(95, 95, 95, 0.6);
+    color:#fff;
+}
+label{
+    color:#fff;
+}
+th{
+    color: #fff;
+}
+ul{
+    text-align: center;
+}
+ul ul{
+    width: 200px;
+    top: 36px !important;
+    background-color: #FFF !important;
+}
+ul ul li{
+    width: 100% !important;
+    background-color: rgba(255, 255, 255, 0.4) !important;
+    color: #eee !important;
+    font-size: 14px;
+}
+
+.ui-tooltip{
+    background: rgba(95, 95, 95, 0.5);
+    color: #202020;
+    border:none;
+}
+.ui-progressbar {
+    position: relative;
+    top: 300px;
+  }
+  .progress-label {
+    position: absolute;
+    left: 50%;
+    top: 4px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+    color: #eee;
+  }
+  #progressbar .ui-progressbar-value {
+    background-color: rgba(95, 95, 95, 0.3);
+    color:#fff;
+  }
+  select{
+      background: rgba(0, 0, 0, 0.3);
+      color: #fff;
+  }
+  input{
+      background: rgba(255, 255, 255, 0.3);
+      margin: 5px;
+      color: #eee;
+      text-align: center;
+  }
